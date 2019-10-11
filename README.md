@@ -14,6 +14,8 @@ Let's start with materials about Mapbox and examples of its use.
 - [Mapbox GL - Javascript library and style specification](https://www.mapbox.com/mapbox-gl-js/api/)
 
 
+[downloada dataset 1](http://earthisflat.net/gpgis/materialy/wojewodztwa_dane.zip)
+
 ## I. Introduction
 
 You can use the [editor on GitHub](https://github.com/mrzeszewski/web-mapping-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
