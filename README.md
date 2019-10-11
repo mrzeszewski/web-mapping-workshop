@@ -17,11 +17,11 @@ Let's start with materials about Mapbox and examples of its use.
 ### Maps built with Mapbox platform
 
 
-- [3D visualisation of restaurant complaints in NYC](https://labs.mapbox.com/bites/00304/)
-- [Moscow noise map](https://urbica.github.io/noisemap/)
-- [Digital archaelogy - map of deleted Geocities ecosystem](http://www.deletedcity.net/)
-- [Visulisation of Uber and Lyft trips in San Francisco](http://tncstoday.sfcta.org/)
-- [ Bathroom in Washington D.C.](https://www.michaelandson.com/dc-metro-bathroom-map/)
+1 [3D visualisation of restaurant complaints in NYC](https://labs.mapbox.com/bites/00304/)
+2 [Moscow noise map](https://urbica.github.io/noisemap/)
+3 [Digital archaelogy - map of deleted Geocities ecosystem](http://www.deletedcity.net/)
+4 [Visulisation of Uber and Lyft trips in San Francisco](http://tncstoday.sfcta.org/)
+5 [ Bathroom in Washington D.C.](https://www.michaelandson.com/dc-metro-bathroom-map/)
 
 
 You can also, search on Twitter for hashtag [#BuiltWithMapbox](https://twitter.com/hashtag/BuiltWithMapbox?src=hash)
