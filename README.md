@@ -4,7 +4,7 @@ In this course You will learn how to design, compose, construct and publish an o
 
 Let's start with materials about Mapbox and examples of its use.
 
-### Mapbox links and 
+### Mapbox resources
 
 
 - [Mapbox - main page](https://www.mapbox.com/)
@@ -13,6 +13,18 @@ Let's start with materials about Mapbox and examples of its use.
 - [Glossary of Mapbox and web-mapping related term](https://www.mapbox.com/mapbox-gl-js/api/)
 - [Mapbox GL - Javascript library and style specification](https://www.mapbox.com/mapbox-gl-js/api/)
 
+
+### Maps built with Mapbox platform
+
+
+- [3D visualisation of restaurant complaints in NYC](https://labs.mapbox.com/bites/00304/)
+- [Moscow noise map](https://urbica.github.io/noisemap/)
+- [Digital archaelogy - map of deleted Geocities ecosystem](http://www.deletedcity.net/)
+- [Visulisation of Uber and Lyft trips in San Francisco](http://tncstoday.sfcta.org/)
+- [ Bathroom in Washington D.C.](https://www.michaelandson.com/dc-metro-bathroom-map/)
+
+
+You can also, search on Twitter for hashtag [#BuiltWithMapbox](https://twitter.com/hashtag/BuiltWithMapbox?src=hash)
 
 [downloada dataset 1](http://earthisflat.net/gpgis/materialy/wojewodztwa_dane.zip)
 
