@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+		<title>Web mapping - Mapbox</title>
+		<meta name="author" content="mrz" >
+		<meta name="generator" content="Bluefish 2.2.5" >
+		<meta name="description" content="Web mapping - Mapbox" >
+		<meta name="keywords" content="Goescience, FOSS4G, UAM, kartografia internetowa, web GIS, webGIS, GIS, Mapbox, Geoserver," >
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+		<meta http-equiv="Content-Script-Type" content="text/javascript" >
+		<meta http-equiv="Content-Style-Type" content="text/css" >
+		<link rel="Stylesheet" type="text/css" href="../style_index.css" />
+   <script language="javascript" src="skrypty/jquery.js"></script>  
+   <script language="javascript" src="skrypty/dimensions/jquery.dimensions.js"></script>  
+
+		   <script language="javascript">  
+   var name = "#floatMenu";  
+   var menuYloc = null;  
+      
+   $(document).ready(function(){  
+       menuYloc = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")))  
+       $(window).scroll(function () {  
+           var offset = menuYloc+$(document).scrollTop()+"px";  
+           $(name).animate({top:offset},{duration:500,queue:false});  
+       });  
+   });  
+   </script> 
+
+   		<!-- Include required JS files -->
+<script type="text/javascript" src="sh/scripts/shCore.js"></script>
+ 
+<!--
+    At least one brush, here we choose JS. You need to include a brush for every
+    language you want to highlight
+-->
+<script type="text/javascript" src="sh/scripts/shBrushSql.js"></script>
+<script type="text/javascript" src="sh/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="sh/scripts/shBrushCss.js"></script>
+<script type="text/javascript" src="sh/scripts/shBrushMap.js"></script>
+<script type="text/javascript" src="sh/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="sh/scripts/shBrushXml.js"></script>
+ 
+<!-- Include *at least* the core style and default theme -->
+<link href="sh/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link href="sh/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />    
+   
+</head>
+<body onload="init()">
+<div id="container">
+
+<div id="naglowek">
+
+		<h1>Web mapping </h1>
+		<div id="menu">
+<div id="menu">
+<ul>
+
+<!-- <li><a href="/blog/index.php">Blog</a></li> -->
+<!--<li><a href="photography/index.php">Photography</a></li>-->
+<li><a href="/index.php">Back to earthisflat.net</a></li>
+
+
+
+</ul>
+</div>
+</div>
+</div>
+
+<div id="content_bg">
+	<!-- Needed for dropshadows -->
+	<div class="container_left">
+	<div class="container_right">
+	<div class="topline">
+	<!-- Start float clearing -->
+	<div class="clearfix">
+
+
+<div id="right">
+
+<div id="floatMenu">
+<hr/>
+
+<ul>
+<li class="czarne" ><a href="http://www.earthisflat.net/web_mapping/index.php#introduction">I. Introduction</a>
+<li class="czarne" ><a href="http://www.earthisflat.net/web_mapping/index.php#tilesets">II. Tilesets</a>
+<li class="czarne" ><a href="http://www.earthisflat.net/web_mapping/index.php#mapa1">III. Data visualisation part 1</a>
+
+
+
+</ul>
+<hr/>
+</div>
+
+</div>
+<div id="content">
+<center>Lecturer: dr Michał Rzeszewski, room 145, phone: +48 61 8296171, <br/>email: mrz (at) amu.edu.pl</center>
+
+<div id="introduction">
+<h3 id="linki">I. Introduction</h3><p>
+
+In this course You will learn how to design, compose, construct and publish an online map. We will be doing all this using <b>Mapbox</b> platform and we will start with the introduction to its web interface. In the enext stages we will use Javascript library to extend our map with more advanced user interactions.</p>
+<p> On this page I will publish neccessary materials - in the pace that will reflect our progress. In other words - <b>If You miss the class You are required to catch up by Yourself</b>.
+<p> To receive the credit for this course You will need to attend at least 80% of the classes and to make an individual or group project - I will grade it on our last meeting.</p>
+<p>Let's start with materials about Mapbox and examples of its use.</p>
+
+</div>
+
+
+<div id="mapbox_materials">
+<h4 >About Mapbox platform</h4>
+<ul><li><a href="https://www.mapbox.com/">Mapbox - main page</a></li>
+<li><a href="https://www.mapbox.com/studio/">Mapbox Studio - GUI for constructing maps</a></li>
+<li><a href="https://www.mapbox.com/help/studio-manual/">Mapbox Studio - manual and tutorials</a></li>
+<li><a href="https://www.mapbox.com/help/glossary/">Glossary of Mapbox and web-mapping related term</a></li>
+<li><a href="https://www.mapbox.com/mapbox-gl-js/api/">Mapbox GL - Javascript library and style specification</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="mapbox_examples">
+<h4>Maps built with Mapbox platform</h4>
+<ol>
+
+	<li><a href="https://www.mapbox.com/blog/3d-hexbin/"> 3D visualisation of restaurant complaints in NYC</a></li>
+	<li><a href="https://blog.mapbox.com/mapping-u-s-wildfire-data-from-public-feeds-e0691596a82">U.S. wildfire data mapped from public feeds</a></li>
+<li><a href="https://urbica.github.io/noisemap/"> Moscow noise map</a></li>
+<li><a href="http://www.deletedcity.net/"> Digital archaelogy - map of deleted Geocities ecosystem </a></li>
+<li><a href="http://tncstoday.sfcta.org/"> Visulisation of Uber and Lyft trips in San Francisco</a></li>
+<li><a href="https://www.michaelandson.com/dc-metro-bathroom-map/"> Bathroom in Washington D.C.</a></li>
+
+
+</ol>
+
+<p>Also, search on Twitter for hashtag <a href="https://twitter.com/hashtag/BuiltWithMapbox?src=hash">#BuiltWithMapbox</a></p>
+
+</div>
+
+<div id="tilesets">
+<h3>II. Tilesets</h3>
+<p>
+
+Tilests are the building blocks of Mapbox maps. They consist of vector data that is generalized into regular square grid at 22 zoom levels. Maps are build by associating style to tilesets - there are analogs of map layers in Desktop GIS. Tilesets can be accessed outside Mapbox Studio environment through Mapbox GL JS library and other mobile libraries.  
+ </p>
+<p> 
+
+We will use tileset mechanism on the sample dataset, consisting of polish voivoidships shapes together with additional attribute data. Dataset is in Shapefile format but after it is uploaded to Mapserver it no longer matters. What it important is the fact that in order to change the data it need to be reuploaded (there is a Replace function).
+
+</div>
+ <div class="zadanie" id="zadanie2">
+ <span>Exercise: </span> <ol>
+ <li>Download dataset: <a href="http://earthisflat.net/gpgis/materialy/wojewodztwa_dane.zip">Voivodship data (zip, 0,4 MB)</a></li>
+ <!-- <li>Download dataset: <a href="http://earthisflat.net/web_mapping/Dane/voivodships_poland.zip">Voivodship data (zip, 0,4 MB)</a></li> -->
+
+ <li>Explore the data in desktop GIS of Your choice.</li>
+ <li>Add the dataset to Your Mapbox account.</li>
+ <li> Create choropleth map showing spatial diifferences between one of the variables in the attribute table. Publish it in the form of Mapbox style. Make Your map readable and visually appealing.</li>
+ 
+ </ol></div>
+
+<div id="mapa1">
+<h3>III. Data visualisation part 1</h3>
+<p>
+	Until now we came across various data visualisation techniques - ways to add and style data in Mapbox. In the next exercise we will try to put this skills to the practice. Below You will find three datasets and Your task is to create an interesting map using one or all of them. Detailed task is described below in the grey box. IMPORTANT NOTICE - this datasets are real. This means that there will be errors and they will need to be cleaned and filtered. Feel free to transform, melt and cast the datasest to fit Your vision of the map. Try to tell a story. And there is more than one story in these datasets! 
+
+<h4>Dane do wizualizacji</h4>
+<ol>
+
+	<li><a href="http://earthisflat.net/ki_mapbox/dane_ki/dwa_tygodnie_studenta.geojson"> Two weeks of student's life</a> GPS tracking data from a device weared by student of our faculty. Almost raw data with couple of data columns added. </li>
+	<li><a href="http://earthisflat.net/ki_mapbox/dane_ki/flickr_poznan_2013.zip">Poznan in Flickr service in 2013.</a> Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Very dirty dataseset that is the result of web api scraping.  </li>
+<li><a href="http://earthisflat.net/ki_mapbox/dane_ki/studenci_przemieszczenia/studenci_przemieszczenia_shp.zip"> Students movements in Poznan</a> Aggregated tracks similar to the first datasest. Due to the privacy issues this data is not complete but consist of randomized points without possibility of identification of single users. It can be used to show general tendencies. </li>
+<li><a href="http://earthisflat.net/mapy-internetowe/materialy/gus_wlkp.geojson"> Data from demographic census 2011 for Wielkopolskie voivodship</a> Number of people, age, gender in 1x1 km grid. </li>
+<li><a href="http://earthisflat.net/mapy-internetowe/materialy/pomniki_przyrody.geojson"> Natural monuments around Poznań</a> Data from GDOŚ </li>
+
+
+</ol>
+
+</div>
+ <div class="zadanie" id="zadanie3">
+ <span>EXERCISE 3: </span> <ol>
+ <li>Get to know the data.</li>
+ <li> Design a map that will show a spatial phenomenon of Your choice using one or more of datasets above. You can also use other source of data. Remember ot carefully design base map. </li>
+ <li>Create and publish map using Mapbox Studio</li>
+ <li>Send me an email with link to map. Remember to use [web-mapoing] in title field.</li>
+ 
+ </ol></div>
+
+</div>
+<br/>
+<br/>
+<div id="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" />
+</a>
+<br />All materials on this page by 
+<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Michał Rzeszewski</span> are licensed under a 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons BY SA license</a>.
+</div>
+	</div>
+	</div>
+	</div>
+</div>
+</div></body>
+</html>
