@@ -2,6 +2,16 @@
 
 In this course You will learn how to design, compose, construct and publish an online map. We will be doing all this using Mapbox platform and we will start with the introduction to its web interface. In the next stages we will use Javascript library to extend our map with more advanced user interactions.
 
+Let's start with materials about Mapbox and examples of its use.
+
+### Mapbox links and 
+
+
+- [Mapbox - main page](https://www.mapbox.com/)
+- [Mapbox Studio - GUI for constructing maps](https://www.mapbox.com/studio/)
+- [Mapbox Studio - manual and tutorials](https://www.mapbox.com/help/studio-manual/)
+- [Glossary of Mapbox and web-mapping related term](https://www.mapbox.com/mapbox-gl-js/api/)
+- [Mapbox GL - Javascript library and style specification](https://www.mapbox.com/mapbox-gl-js/api/)
 
 
 ## I. Introduction
