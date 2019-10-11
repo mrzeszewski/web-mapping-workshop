@@ -1,0 +1,204 @@
+body, html
+{
+text-align:center;
+background: 	white;
+/*background: 	#ececec;*/
+
+}
+#main
+{
+width: 970px;
+text-align:left;
+margin: 0 auto;
+overflow:hidden;
+background:white;
+border: 2px black solid;
+
+}
+#naglowek
+{
+border: 1px  #EAEAAE outset;
+text-align:center;
+background:white url("tlo.jpg") no-repeat top center;
+}
+#stopka
+{
+padding:2px;
+border: 1px black solid;
+text-align:center;
+background:white url("tlo.jpg") no-repeat top center;
+font-size:10px;
+}
+.tytuly
+{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #5eb956;
+}
+pre
+{
+	font-size: 8pt !important;
+	background: 	grey;
+} 
+a
+{
+	font-family: helvetica;
+	font-weight: bold;
+	color: #007f09;
+}
+a:hover
+{
+	font-family: helvetica;
+	font-weight: bold;
+	color: black;
+}
+.sekcja
+{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #00000;
+}
+.tekst
+{
+	font-family: serif;
+	font-style: normal;
+	font-size: 12pt;
+}
+P
+{
+	font-family: serif;
+	font-style: normal;
+	font-size: 12pt;
+	text-indent: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+.p2
+{
+	font-family: serif;
+	font-style: normal;
+	font-size: 12pt;
+	margin-left: 100px;
+	margin-right: 40px;
+	text-align: justify;
+}
+H1,H2,H3,H4,H5
+{
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+ul
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 130%;
+}
+ol
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 130%;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+.test
+{
+	font-weight: bold;
+	font-size: 24pt;
+	color: red;
+}
+span
+{
+	font-weight: bold;
+}
+.zadanie
+{	font-family: serif;
+	font-style: normal;
+	font-size: 12pt;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px;
+	text-align: justify;
+	line-height: 180%;
+	background-color: #cbcbcb;
+}
+dl 
+{
+	font-family: serif;
+	font-style: normal;
+	font-size: 12pt;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px;
+	text-align: justify;
+	line-height: 180%;
+	background-color: #e0ffe0;
+}
+.ramka
+{
+	font-family: serif;
+	font-style: normal;
+	font-size: 12pt;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px;
+	text-align: justify;
+	line-height: 180%;
+	background-color: #e0ffe0;
+}
+dt
+{
+	font-weight: bold;
+}
+li 
+{
+margin-top:5px;
+}
+
+.kod 
+{
+	background-color:	#F5F5F5; 
+	font-size: 12pt;
+	margin-left	:	40px;
+  	margin-right: 40px;
+  	padding: 10px;
+  		
+        text-align: justify;
+	line-height: 120%;
+  	border	:	2px dotted GrayText;
+  	color		:	black;
+}
+#linki_rozdzialy
+{
+text-align:center;
+}
+#linki_rozdzialy a:link, #linki_rozdzialy a:visited 
+{
+color:black;
+border: 1px black outset;
+background-color:#EAEAAE;
+margin:2px;
+padding:2px;
+text-decoration:none; 	
+}
+#linki_rozdzialy a:hover
+{
+background-color:black;
+color:white;
+border: 1px white inset;
+} 
+
+
