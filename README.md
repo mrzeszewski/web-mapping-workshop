@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## I. Introduction
+
+In this course You will learn how to design, compose, construct and publish an online map. We will be doing all this using Mapbox platform and we will start with the introduction to its web interface. In the next stages we will use Javascript library to extend our map with more advanced user interactions.
+
+
+
+## I. Introduction
 
 You can use the [editor on GitHub](https://github.com/mrzeszewski/web-mapping-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
