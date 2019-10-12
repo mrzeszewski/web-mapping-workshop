@@ -30,21 +30,30 @@ Let's start with materials about Mapbox and examples of its use.
 You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitter.com/hashtag/BuiltWithMapbox?src=hash)
 
 
-
 ## II. Data visualisation with Mapbox Studio GUI 
 
 
 
 ## III. Making your own data ready for Mapbox 
 
+## IV. Your own website with a map
+
 ## Sample datasets
 
-2. [Student's life](data/student_traces.geojson)
+1. [Polish voivodships with sample data](data/poland_voivodships.geojson)
+_Administrative boundaries with sample attribute data._
+2. [Demographic census data for Poznan](data/demography_poznan.geojson)
+_Data from demographic census 2011 for Poznan area: Number of people, age, gender in 1x1 km grid._
+3. [Student's life](data/student_traces.geojson)
 _Two weeks of student's life GPS tracking data from a device weared by student of our faculty. Almost raw data with a couple of data columns added._
+4. [Natural monuments in Poznan](data/national_monuments.csv)
+_Natural monuments around Poznań Data from GDOŚ - this dataset is in proper CSV format for uplod into Mapbox_
+5. [Poznan in Flickr (2013)](data/flickr_data.geojson)
+_Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping._
 
 
   
-    Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Very dirty dataseset that is the result of web api scraping.
+    Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping.
     Students movements in Poznan Aggregated tracks similar to the first datasest. Due to the privacy issues this data is not complete but consist of randomized points without possibility of identification of single users. It can be used to show general tendencies.
     Data from demographic census 2011 for Wielkopolskie voivodship Number of people, age, gender in 1x1 km grid.
     Natural monuments around Poznań Data from GDOŚ
