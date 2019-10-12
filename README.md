@@ -51,18 +51,6 @@ _Natural monuments around Poznań Data from GDOŚ - this dataset is in proper CS
 5. [Poznan in Flickr (2013)](data/flickr_data.geojson)
 _Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping._
 
-
-  
-    Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping.
-    Students movements in Poznan Aggregated tracks similar to the first datasest. Due to the privacy issues this data is not complete but consist of randomized points without possibility of identification of single users. It can be used to show general tendencies.
-    Data from demographic census 2011 for Wielkopolskie voivodship Number of people, age, gender in 1x1 km grid.
-    Natural monuments around Poznań Data from GDOŚ
-
-
-You can use the [editor on GitHub](https://github.com/mrzeszewski/web-mapping-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
