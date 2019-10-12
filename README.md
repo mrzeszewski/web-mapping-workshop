@@ -25,13 +25,20 @@ Let's start with materials about Mapbox and examples of its use.
 5. [3D visualisation of restaurant complaints in NYC](https://labs.mapbox.com/bites/00304/)
 6. [Public particpation in the Jezyce neighbourhood, Poznan](http://jezyce.geoprezentacja.pl/)
 7. [Population mountains](https://pudding.cool/2018/12/3d-cities-story/)
+8. [The Opportunity Atlas - USA](https://www.opportunityatlas.org/)
+
+You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitter.com/hashtag/BuiltWithMapbox?src=hash)
 
 
-You can also, search on Twitter for hashtag [#BuiltWithMapbox](https://twitter.com/hashtag/BuiltWithMapbox?src=hash)
+
+## II. Data visualisation with Mapbox Studio GUI 
+
+### Sample datasets
+
+## III. Making your own data ready for Mapbox 
+
 
 [downloada dataset 1](http://earthisflat.net/gpgis/materialy/wojewodztwa_dane.zip)
-
-## I. Introduction
 
 You can use the [editor on GitHub](https://github.com/mrzeszewski/web-mapping-workshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
