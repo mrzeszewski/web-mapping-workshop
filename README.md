@@ -61,8 +61,8 @@ By this point you probably know how to make a map. Now it's time to **make somet
 
 A couple guidelines before you start:
 
--Maps should be telling stories - stories make data readable and important
--
+- Maps should be telling stories - stories make data readable and important
+- 
 
 ## V. Sample datasets
 
