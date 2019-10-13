@@ -54,6 +54,8 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 
 ## IV. Make your own map!
 
+By this point you probably know how to make a map. Now it's time to **make something usefull!** If you brought _your own data_ - use it. If you don't have data ready create it now using [Dataset Editor](https://studio.mapbox.com/datasets/), through CSV file or use your favorite GIS software. You can also use any or all of the dataset that are provided in this workshop.  
+
 ## V. Sample datasets
 
 1. [Polish voivodships with sample data](data/poland_voivodships.geojson)
@@ -74,3 +76,5 @@ Maybe you liked this workshop, maybe not :) Either way I hope you like the idea 
 - learn more about Mapbox through [official workshops on GitHUb](https://github.com/mapbox/workshops)
 - there is an excellent [new workshop available](https://github.com/vakila/mapbox-concatenate-workshop) by [Anjana Vakil](https://twitter.com/AnjanaVakil). There is some great stuff there - see the scrollyteller template for creating story maps!
 - Mapbox is nice but it has some limitations and a limited support in online Open Source GIS community (in other words - there are not many people willing to answer your question on Stack Overflow!). Explore other mapping libraries like [Leaflet]() or [OpenLayers]()
+
+Contact me if you have any questions - I wll be more than happy to help you with your mapping project.
