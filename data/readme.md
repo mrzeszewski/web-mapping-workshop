@@ -10,4 +10,7 @@ _Two weeks of student's life GPS tracking data from a device weared by student o
 _Natural monuments around Poznań Data from GDOŚ - this dataset is in proper CSV format for uplod into Mapbox_
 5. [Poznan in Flickr (2013)](flickr_data.geojson)
 _Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping._
+_Natural monuments around Poznań Data from GDOŚ - this dataset is in proper CSV format for uplod into Mapbox_
+6. [Icon for Polish natural monuments](natural_monument.svg)
+_SVG icon that can be uploaded into Mapbox studio style_
 
