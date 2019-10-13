@@ -38,13 +38,23 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 ## II. Basics - creating a map
 
 1. Crash course in web mapping - a simple map using Mapbox Studio
-2. Learn about the Mapbox mapping ecosystem
-3. Uploading external data and creating tilesets
-4. 
+2. Introduction to Mapbox mapping ecosystem
+3. External data and tilesets
+4. Using tilesets to create map layers
+5. Using Dataset Editor to create data
+6. Publishing map draft
 
 ## III. More advanced functions - publishing, interactivity
 
-## IV. Sample datasets
+1. Introduction to Mapbox GL JS library
+2. A simple website with an interactive map
+3. Publishing website through GitHub Pages
+4. Popups!
+5. How to learn from examples and tutorials
+
+## IV. Make your own map!
+
+## V. Sample datasets
 
 1. [Polish voivodships with sample data](data/poland_voivodships.geojson)
 _Administrative boundaries with sample attribute data._
@@ -57,7 +67,7 @@ _Natural monuments around Poznań Data from GDOŚ - this dataset is in proper CS
 5. [Poznan in Flickr (2013)](data/flickr_data.geojson)
 _Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping._
 
-## V. After the workshop
+## VI. After the workshop - some ideas
 
 ### Markdown
 
