@@ -57,7 +57,12 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 
 ## IV. Make your own map!
 
-By this point you probably know how to make a map. Now it's time to **make something usefull!** If you brought _your own data_ - use it. If you don't have data ready create it now using [Dataset Editor](https://studio.mapbox.com/datasets/), through CSV file or use your favorite GIS software. You can also use any or all of the dataset that are provided in this workshop.  
+By this point you probably know how to make a map. Now it's time to **make something usefull !** If you brought _your own data_ - use it. If you don't have data ready _create it now_ using [Dataset Editor](https://studio.mapbox.com/datasets/), through CSV file or use your favorite GIS software. You can also use any or all of the dataset that are _provided in this workshop_. In any case - try to **create a beatifull web map**. 
+
+A couple guidelines before you start:
+
+-Maps should be telling stories - stories make data readable and important
+-
 
 ## V. Sample datasets
 
