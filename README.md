@@ -59,10 +59,14 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 
 By this point you probably know how to make a map. Now it's time to **make something usefull !** If you brought _your own data_ - use it. If you don't have data ready _create it now_ using [Dataset Editor](https://studio.mapbox.com/datasets/), through CSV file or use your favorite GIS software. You can also use any or all of the dataset that are _provided in this workshop_. In any case - try to **create a beatifull web map**. 
 
-A couple guidelines before you start:
+A couple of guidelines before you start:
 
-- Maps should be telling stories - stories make data readable and important
-- 
+- **Maps should be telling stories** - stories make data readable and important. Engage emotions.
+- Web maps will be seen through **mobile devices**. Plan for this
+- **KISS or "The simpler the better"**. Aim for focused narratives. Better to have three good simple maps than one with too many things
+- **Draw before you code** - paper prototypes can save you many coding hours
+- **Be responsible** - Remember that all maps lie. Maps are not only representations, they create space and place. Do not underestimate power of the maps to change the world. **Use maps for good**. 
+
 
 ## V. Sample datasets
 
