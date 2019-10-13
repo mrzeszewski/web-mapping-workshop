@@ -29,16 +29,22 @@ Let's start with materials about Mapbox and examples of its use.
 
 You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitter.com/hashtag/BuiltWithMapbox?src=hash)
 
+### Before you start
 
-## II. Data visualisation with Mapbox Studio GUI 
+1. You will need a Mapbox account
+2. It will be also easier if you have GitHub account
 
 
+## II. Basics - creating a map
 
-## III. Making your own data ready for Mapbox 
+1. Crash course in web mapping - a simple map using Mapbox Studio
+2. Learn about the Mapbox mapping ecosystem
+3. Uploading external data and creating tilesets
+4. 
 
-## IV. Your own website with a map
+## III. More advanced functions - publishing, interactivity
 
-## Sample datasets
+## IV. Sample datasets
 
 1. [Polish voivodships with sample data](data/poland_voivodships.geojson)
 _Administrative boundaries with sample attribute data._
@@ -50,6 +56,8 @@ _Two weeks of student's life GPS tracking data from a device weared by student o
 _Natural monuments around Poznań Data from GDOŚ - this dataset is in proper CSV format for uplod into Mapbox_
 5. [Poznan in Flickr (2013)](data/flickr_data.geojson)
 _Poznan in Flickr service in 2013. Data points from Flickr representing metadata of all photos with known coordinated. In database there are basic info like tags, description, date etc. Dirty dataseset that is the result of web api scraping._
+
+## V. After the workshop
 
 ### Markdown
 
