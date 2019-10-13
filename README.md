@@ -73,4 +73,4 @@ Maybe you liked this workshop, maybe not :) Either way I hope you like the idea 
 
 - learn more about Mapbox through [official workshops on GitHUb](https://github.com/mapbox/workshops)
 - there is an excellent [new workshop available](https://github.com/vakila/mapbox-concatenate-workshop) by [Anjana Vakil](https://twitter.com/AnjanaVakil). There is some great stuff there - see the scrollyteller template for creating story maps!
-- Mapbox is nice but it has some limitations and a limited support in online Open Source GIS community (on other words - there are not many people willing to answer your question on Stack Overflow!). Explore other mapping libraries like [Leaflet]() or [OpenLayers]()
+- Mapbox is nice but it has some limitations and a limited support in online Open Source GIS community (in other words - there are not many people willing to answer your question on Stack Overflow!). Explore other mapping libraries like [Leaflet]() or [OpenLayers]()
