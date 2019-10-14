@@ -42,8 +42,8 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 
 1. Crash course in web mapping - a simple map using Mapbox Studio
 2. Introduction to Mapbox mapping ecosystem
-3. External data and tilesets
-4. Using tilesets to create map layers
+3. [External data and tilesets](tilesets.md)
+4. [Using tilesets to create map layers](adding_tilesets.md)
 5. [Using Dataset Editor to create data](dataset_editor.md)
 6. Publishing map draft
 
