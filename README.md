@@ -43,7 +43,7 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 ## II. Basics - creating a map
 
 1. [Crash course in web mapping - a simple map using Mapbox Studio](mapbox_studio.md)
-2. [Introduction to Mapbox mapping ecosystem]{mapbox_ecosystem.md)
+2. [Introduction to Mapbox mapping ecosystem](mapbox_ecosystem.md)
 3. [External data and tilesets](tilesets.md)
 4. [Using tilesets to create map layers](adding_tilesets.md)
 5. [Using Dataset Editor to create data](dataset_editor.md)
