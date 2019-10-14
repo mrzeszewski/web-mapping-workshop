@@ -1,4 +1,4 @@
-## Datasest Editor
+## Dataset Editor
 
 Apart from using data created elsewhere (in GIS software or in spreadsheet) you can create simple data in Mapbox web GUI.
 This tool is called [Dataset Editor](https://www.mapbox.com/studio/datasets/). 
