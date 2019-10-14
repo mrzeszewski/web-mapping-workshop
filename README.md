@@ -44,7 +44,7 @@ You can also, search on **Twitter** for hashtag [#BuiltWithMapbox](https://twitt
 2. Introduction to Mapbox mapping ecosystem
 3. External data and tilesets
 4. Using tilesets to create map layers
-5. Using Dataset Editor to create data
+5. [Using Dataset Editor to create data](dataset_editor.md)
 6. Publishing map draft
 
 ## III. More advanced functions - publishing, interactivity
