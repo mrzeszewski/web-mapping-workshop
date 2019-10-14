@@ -1,7 +1,7 @@
 ## Publishing map draft
 
 After you have created some interesting map you need a way to show it to someone.
-The best way is to create a simple (or more complicated) website with embedded map. And we will do it in a monment. 
+The best way is to create a simple (or more complicated) website with embedded map. And we will do it in a moment. 
 But there is an even easier way that you can use right now. Follow this steps:
 
 1. In the upper right corner of the **Style Editor** click **Publish**
