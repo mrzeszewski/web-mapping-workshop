@@ -1,7 +1,7 @@
 #3 Crash course in web mapping - a simple map using Mapbox Studio
 Although most tutorials will have you start with some data we will go for a different route. Let's hope this  will save us some mileage in the learning process.
 
- 1. Open [Mapbox Studio](studio.mapbox.com)
+ 1. Open [Mapbox Studio](http://studio.mapbox.com)
  2. Click on the **Styles** section in the upper right corner
  3. Select **New style** and choose **Basic template**. Don't worry you'll have the opportunity to explore other map styles as well!
  4. Click **Customize basic template** What you see is the **Style Editor**. Take a moment and look around. This not an ordinary image. Right click on the map and hold. Move the mouse up and down or right and left to see something cool! 
